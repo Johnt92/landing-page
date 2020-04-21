@@ -1,0 +1,53 @@
+
+header{
+    
+}
+
+
+.nav-social{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 27px;
+    color: #4b5053;
+    font-family: "HelveticaBold";
+    filter: drop-shadow(0px 1px 0.5px #ffffff);
+}
+.social{
+    display: flex;
+}
+.social img{   
+}
+.twitter{
+    background-image: url(img/socialBackground.png);
+    width: 30px;
+    height: 30px;
+}
+.twitter img{
+    padding: 8px 0 0 5px;
+}
+.rss{
+    background-image: url(img/socialBackground.png);
+    width: 30px;
+    height: 30px;
+}
+.rss img{
+    padding: 8px 0 0 8px;
+}
+.mail{
+    background-image: url(img/socialBackground.png);
+    width: 30px;
+    height: 30px;
+}
+.mail img{
+    padding: 9px 0 0 7px;
+}
