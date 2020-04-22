@@ -1,36 +1,42 @@
-
-header{
-    
+body{
+    width: 1000px;
+    margin: auto;
 }
-
-
-.nav-social{
-    display: flex;
-}
+/* ///////////////////////////////////////////////////////////////// */
+/* header */
 ul{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 li{
-
+    margin: 0;
     list-style-type: none;
+    padding-right: 36px;
 }
 a{
     text-decoration: none;
     font-size: 12px;
-    line-height: 27px;
     color: #4b5053;
     font-family: "HelveticaBold";
     filter: drop-shadow(0px 1px 0.5px #ffffff);
 }
+.logo{
+    margin-top: 55px;
+}
+.nav-social{
+    display: flex;
+    margin-top: 25px;
+}
 .social{
     display: flex;
-}
-.social img{   
+    margin-left: 376px;
 }
 .twitter{
     background-image: url(img/socialBackground.png);
     width: 30px;
     height: 30px;
+    margin-right: 15px;
 }
 .twitter img{
     padding: 8px 0 0 5px;
@@ -39,6 +45,7 @@ a{
     background-image: url(img/socialBackground.png);
     width: 30px;
     height: 30px;
+    margin-right: 15px;
 }
 .rss img{
     padding: 8px 0 0 8px;
@@ -50,4 +57,68 @@ a{
 }
 .mail img{
     padding: 9px 0 0 7px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* Banner */
+.banner{
+    background-image: url(img/bannerBackgr.png);
+    margin-top: 35px;
+}
+.banner img{
+    margin: auto;
+    display: block;
+    padding: 130px 0 156px 0;
+}
+/*  //////////////////////////////////////////////////////////////////////////////////*/
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/*latestDownloads  */
+h1{
+    font-size: 20px;
+    color: #4b5053;
+    font-family: "Georgia";
+    font-style: italic;
+    filter: drop-shadow(0px 1px 0.5px #ffffff);
+}
+h2{
+    margin: 0;
+    width: 273px;
+    font-size: 14px;
+    color: #4b5053;
+    font-family: "HelveticaBold";
+    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
+}
+h3{
+    margin: 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 310px;
+    font-size: 12px;
+    color: #4b5053;
+    font-family: "HelveticaBold";
+    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
+}
+p{
+    width: 310px;
+    font-size: 12px;
+    color: #525252;
+    font-family: "Helvetica";
+    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
+}
+.images-added{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 40px;
+
+}
+.images-added img{
+    width: 315px;
+    height: 200px;
+}
+
+.info-surch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 40px;
 }
