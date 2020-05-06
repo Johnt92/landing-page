@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     width: 1000px;
     margin: auto;
@@ -101,10 +100,11 @@ h2{
     height: 200px;
 }
 /* ////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
 /*Surch  */
 h3{
     padding: 12px 0 12px 0;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     border-top: 1px solid;
     border-bottom: 1px solid;
     width: 310px;
@@ -114,7 +114,8 @@ h3{
     filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
 }
 p{
-    width: 310px;
+    margin: 0;
+    /* width: 310px; */
     font-size: 12px;
     line-height: 22px;
     color: #525252;
@@ -126,6 +127,9 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 28px;
     grid-row-gap: 40px;
+}
+.surch p{
+    margin-top: 15px 0 20px 0;
 }
 input, button{
     font-size: 13px;
@@ -164,6 +168,9 @@ button{
 /* ////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////// */
 /*otherDownloads */
+.otherDownloads h1{
+    margin-top: 0;
+}
 .day-like-comment p{
     font-size: 11px;
     line-height: 22px;
@@ -172,139 +179,22 @@ button{
     filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
 }
 span{
+    padding-right: 5px;
     font-size: 11px;
     line-height: 30px;
     color: #4b5053;
     font-family: "Helvetica";
     filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
 }
-.day-like-comment img{
+.day-like-comment{
+    margin: 0 0 30px 0;
+    display: flex;
+}
+.comments-likes img{
     width: 15px;
     height: 13px;
 }
-=======
-body{
-    width: 1000px;
-    margin: auto;
-}
-/* ///////////////////////////////////////////////////////////////// */
-/* header */
-ul{
+.comments-likes{
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 72px;
 }
-li{
-    margin: 0;
-    list-style-type: none;
-    padding-right: 36px;
-}
-a{
-    text-decoration: none;
-    font-size: 12px;
-    color: #4b5053;
-    font-family: "HelveticaBold";
-    filter: drop-shadow(0px 1px 0.5px #ffffff);
-}
-.logo{
-    margin-top: 55px;
-}
-.nav-social{
-    display: flex;
-    margin-top: 25px;
-}
-.social{
-    display: flex;
-    margin-left: 376px;
-}
-.twitter{
-    background-image: url(img/socialBackground.png);
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
-}
-.twitter img{
-    padding: 8px 0 0 5px;
-}
-.rss{
-    background-image: url(img/socialBackground.png);
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
-}
-.rss img{
-    padding: 8px 0 0 8px;
-}
-.mail{
-    background-image: url(img/socialBackground.png);
-    width: 30px;
-    height: 30px;
-}
-.mail img{
-    padding: 9px 0 0 7px;
-}
-/* ////////////////////////////////////////////////////////////////////////////////// */
-/* Banner */
-.banner{
-    background-image: url(img/bannerBackgr.png);
-    margin-top: 35px;
-}
-.banner img{
-    margin: auto;
-    display: block;
-    padding: 130px 0 156px 0;
-}
-/*  //////////////////////////////////////////////////////////////////////////////////*/
-/* ////////////////////////////////////////////////////////////////////////////////// */
-/*latestDownloads  */
-h1{
-    font-size: 20px;
-    color: #4b5053;
-    font-family: "Georgia";
-    font-style: italic;
-    filter: drop-shadow(0px 1px 0.5px #ffffff);
-}
-h2{
-    margin: 0;
-    width: 273px;
-    font-size: 14px;
-    color: #4b5053;
-    font-family: "HelveticaBold";
-    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
-}
-h3{
-    margin: 0;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    width: 310px;
-    font-size: 12px;
-    color: #4b5053;
-    font-family: "HelveticaBold";
-    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
-}
-p{
-    width: 310px;
-    font-size: 12px;
-    color: #525252;
-    font-family: "Helvetica";
-    filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.75));
-}
-.images-added{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 28px;
-    grid-row-gap: 40px;
-
-}
-.images-added img{
-    width: 315px;
-    height: 200px;
-}
-
-.info-surch{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 28px;
-    grid-row-gap: 40px;
-}
->>>>>>> fd07b13b71d1959f8653212d3c5b09820e08f315
